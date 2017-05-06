@@ -1,0 +1,21 @@
+{
+  "port": "13080",
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "username": "",
+    "password": "",
+    "database": "pbs-cc"
+  },
+  "SDC":"https://www.mytrintrin.com:13070/api/",
+  "logging": {
+    "general": {
+      "level": "debug",
+      "file": "./logs/general.log"
+    },
+    "error": {
+      "level": "error",
+      "file": "./logs/errors.log"
+    }
+  }
+}
